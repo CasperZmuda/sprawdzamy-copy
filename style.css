@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--pale: #f1f5f8;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1rem;
+}
+
+footer {
+	background-color: var(--pale);
+	padding: 5rem;
+
+	.footer-inner {
+    display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+  .right-section {
+    display: flex;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1140px;
+	width: 100%;
+}
